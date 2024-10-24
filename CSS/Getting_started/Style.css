@@ -1,0 +1,30 @@
+h1{
+    color: blue;
+    background-color: red;
+}
+
+p{
+    color: white;
+    background-color: yellow;
+}
+
+div{
+    font-size: xx-large;
+}
+
+#test{
+    color: pink;
+}
+
+.test{
+    color: black;
+}
+
+li {
+    list-style-type: none;
+}
+
+.special {
+    color: orange;
+    font-weight: bold;
+}
