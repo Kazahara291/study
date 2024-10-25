@@ -1,0 +1,26 @@
+/* Create your test CSS here */
+h1{
+    text-align: center;
+    color: black;
+}
+
+p {
+    color: red;
+}
+
+em {
+    font-weight: bold;
+}
+
+div{
+    font-style: italic;
+}
+
+a{
+    font-size: xx-large;
+}
+
+a:hover{
+    text-decoration: none;
+    font-weight: bold;
+}
