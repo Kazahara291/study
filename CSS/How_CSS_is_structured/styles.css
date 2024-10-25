@@ -24,3 +24,14 @@ a:hover{
     text-decoration: none;
     font-weight: bold;
 }
+
+*{
+    background-color: gray;
+}
+
+@media (min-width: 30em){
+    *{
+        background-color: white;
+    }
+
+}
