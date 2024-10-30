@@ -5,7 +5,7 @@
     <title>The Cascade Layer Task</title>
 
     <style>
-      @layer yellow, purple, green, reset;
+      @layer yellow, purple, green;
 
       @layer yellow {
         #outer div ul .nav a {
@@ -24,11 +24,9 @@
           color: lightgreen;
         }
       }
-      @layer reset{
-        a{
+       a{
           color: revert;
         }
-      }
     </style>
   </head>
 
