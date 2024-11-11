@@ -8,38 +8,48 @@
       table {
         font-size: 75%;
         border-collapse: collapse
-        border-top: solid 1px #999;
-        border-bottom: solid 1px #999;
-
       }
     
-     thead {
+     table thead {
        border-top: solid 1px #999;
-       border-bottom: solid 1px #999;
-
      }
+
+     tfoot {
+      border-top: solid 1px #999;
+      border-bottom: solid 1px #999;
+    }
 
      table thead tr th {
        padding: 0.3em;
+       vertical-align: top;
      }
 
      table thead tr th:nth-child(1) ,table thead tr th:nth-child(4) {
-       text-align: left;
+      vertical-align: top;
+      text-align: left;
      }
 
      table thead tr th:nth-child(2) ,table thead tr th:nth-child(3) {
-       text-align: right;
+      vertical-align: top;
+      text-align: right;
      }
 
      table tbody tr th , table tbody tr td:nth-child(4) {
-       text-align: left;
+      vertical-align: top;
+      text-align: left;
      }
 
      table tbody tr td:nth-child(2) , table tbody tr td:nth-child(3) {
-       text-align: right;
+      vertical-align: top;
+      text-align: right;
      }
 
-      
+     tbody tr:nth-child(odd) {
+       background-color: #eee;
+     }
+     
+     
+
     </style>
   </head>
 
@@ -88,7 +98,7 @@
           <td>If the kids are united</td>
         </tr>
         <tr>
-          <th scope="row">Siouxsie and the Banshees</th>
+          <th scope="row">Siouxsie and the<br> Banshees</th>
           <td>1976</td>
           <td>11</td>
           <td>Hong Kong Garden</td>
