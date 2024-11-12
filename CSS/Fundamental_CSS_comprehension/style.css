@@ -12,13 +12,20 @@ html {
 
   /* Selectors to be matched up with rulesets */
 
-.card article img
+.card article img {
+}
 
-.card footer
+.card footer {
 
-.card header
+}
 
-.card
+.card header {
+
+}
+
+.card {
+    border: 2px solid #000000;
+}
 
   /* Rulesets to be matched up with selectors */
 
