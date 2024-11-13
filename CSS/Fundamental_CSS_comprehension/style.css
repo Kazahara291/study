@@ -46,10 +46,12 @@ html {
 
 .card header h2 {
   font-size: 2em;
+  line-height: 1.5em;
 }
 
 .card footer p{
   font-size: 1.5em;
+  line-height: 1.5em;
 }
 
 /*名刺の内容*/
@@ -64,6 +66,7 @@ html {
  }
 
 .card article p {
-  padding: 1.5em;
+  padding: 1em;
   color: #eeeeeeee;
+  line-height: 1.5em;
 }
