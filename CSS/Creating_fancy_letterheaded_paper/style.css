@@ -47,9 +47,11 @@ body article {
   background-color: #ffffffff;
 }
 
-
 body article{
-  background: no-repeat url(top-image.png) top , #fff no-repeat url(bottom-image.png) bottom;
+  background: no-repeat url(top-image.png) top ,
+  no-repeat url(bottom-image.png) bottom , 
+  linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0) 20%),
+  #fff linear-gradient(rgba(255,255,255,0) 80% , rgba(0,0,0,0.2));
 }
 
 body h1 {
