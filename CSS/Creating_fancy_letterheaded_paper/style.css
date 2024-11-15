@@ -52,10 +52,13 @@ body article{
   no-repeat url(bottom-image.png) bottom , 
   linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0) 20%),
   #fff linear-gradient(rgba(255,255,255,0) 80% , rgba(0,0,0,0.2));
+  border-top: solid #ff1000 1mm;
+  border-bottom: solid #ff1000 1mm;
 }
 
 body h1 {
   background-image: url(logo.png);
   background-repeat: no-repeat;
   /*filter: drop-shadow(2px 2px 2px black);*/
+  filter: drop-shadow(3px 1px 1px black);
 }
