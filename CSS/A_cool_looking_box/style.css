@@ -5,9 +5,16 @@ html {
 /* Your CSS below here */
 
 div{
-  border: 1px solid black;
-  height: 200px;
-  width: 200px;
+  color: #ffffff;
+  display: flex;
+  border: 1px solid #0f0f0f;
+  height: 10rem;
+  width: 11.8rem;
   margin: auto;
-  text-align: center;
+  padding: auto;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 1px 1px 1px #000000;
 }
+
+/*remの値は18pxをn倍して200pxに近い値になる数字に設定*/
