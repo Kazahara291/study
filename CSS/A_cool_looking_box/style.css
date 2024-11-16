@@ -6,8 +6,11 @@ html {
 
 div{
   color: #ffffff;
+  background-color: #ff0000;
+  background-image: linear-gradient(to bottom right, rgba(0,0,0,0) 30%, rgba(0,0,0,0.2) 60%, rgba(0,0,0,0.4));
   display: flex;
-  border: 1px solid #0f0f0f;
+  border: 1px solid #bb0000;
+  border-radius: 10px;
   height: 10rem;
   width: 11.8rem;
   margin: auto;
@@ -15,6 +18,9 @@ div{
   align-items: center;
   justify-content: center;
   text-shadow: 1px 1px 1px #000000;
+  box-shadow: 3px 3px 10px black,
+  inset 3px 3px 5px rgba(255,255,255,0.5),
+  inset -3px -3px 5px rgba(0,0,0,0.5);
 }
 
 /*remの値は18pxをn倍して200pxに近い値になる数字に設定*/
