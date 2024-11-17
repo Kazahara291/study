@@ -44,10 +44,6 @@ header, footer {
 
 /* WRITE YOUR CODE BELOW HERE */
 
-@font-face {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 html{
   font-size: 10px;
 }
@@ -61,7 +57,21 @@ h2 {
   font-size: 1.8rem;
 }
 
+h1 , h2 {
+  letter-spacing: 0.5rem;
+}
+
+h2+p {
+  text-indent: 20px;
+}
+
 p {
   font-size: 1.2rem;
   line-height: 1.5rem;
+  letter-spacing: 0.3rem;
+  word-spacing: 0.3rem;
+}
+
+a:hover {
+  text-decoration: none;
 }
