@@ -44,14 +44,19 @@ header, footer {
 
 /* WRITE YOUR CODE BELOW HERE */
 
-html{
-  font-size: 10px;
+@font-face {
+  font-family: "myfont";
+  src: url("./myfont.woff"), 
 }
 
 @font-face {
-  font-family: "myfont","myFont2";
-  src:
-  url(myfont.woff) , url(myFont2.otf);
+  font-family: "myFont2";
+  src: url("./myFont2.ttf");
+}
+
+html{
+  font-size: 10px;
+  font-family: "myFont2";
 }
 
 h1 {
@@ -73,19 +78,23 @@ h2+p {
 }
 
 p {
-  font-family: Arial;
   font-size: 1.2rem;
-  font-family: "myFont2";
   line-height: 1.5rem;
   letter-spacing: 0.3rem;
   word-spacing: 0.3rem;
-  list-style: square;
+}
+
+section ul li {
+  list-style: circle;  
+}
+
+section ol li {
+  list-style: upper-roman;  
 }
 
 section ul li ,section ol li {
   font-size: 1.2rem;
   line-height: 1.5rem;
-  list-style: square;
 }
 
 a[href^="http"]:visited{
@@ -112,9 +121,10 @@ a[href^="http"]::after {
 
 aside ul li {
   font-size: 1.2rem;
-  line-height: 1.5rem;
-  list-style: square;
+  line-height: 2rem;
+  list-style: circle;
 }
+
 
 nav {
   margin: 0;
@@ -125,11 +135,12 @@ nav ul li {
   display: flex;
   font-size: 3rem;
   text-align: center;
-  line-height: 4rem;
+  line-height: 5rem;
   list-style: none;
   border: #000 solid  1px;
   width: 20rem;
-  margin: 30px;
+  margin: 3rem;
+  margin-left: 0;
   background-color: #fff;
 }
 
@@ -149,5 +160,5 @@ nav ul li:hover {
 
 nav ul li:active {
   background: #f0f;
-  color: white;
+  color: #fff;
 }
