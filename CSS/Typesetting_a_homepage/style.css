@@ -113,15 +113,38 @@ aside ul li {
   list-style: square;
 }
 
+nav {
+  margin: 0;
+  gap: 0.625%;
+}
+
 nav ul li {
-  font-size: 4rem;
+  display: flex;
+  font-size: 3rem;
   text-align: center;
+  line-height: 4rem;
   list-style: none;
-  border: #000 solid 1px;
-  margin: 10px;
-  width: 250px;
+  border: #000 solid  1px;
+  width: 20rem;
+  margin: 30px;
+  background-color: #fff;
 }
 
 nav ul li a {
+  flex: 1;
+  outline-color: transparent;
   text-decoration: none;
+}
+
+nav ul li:focus {
+  background-color: #f90;
+}
+
+nav ul li:hover {
+  background-color: #f90;
+}
+
+nav ul li:active {
+  background: #f0f;
+  color: white;
 }
