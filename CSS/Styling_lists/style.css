@@ -89,6 +89,14 @@ a[href^="http"]:visited{
   color: #0f0;
 }
 
+a:focus {
+  outline: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
 a[href^="http"]::after {
   content: "";
   display: inline-block;
@@ -97,14 +105,6 @@ a[href^="http"]::after {
   margin-left: 0.25rem;
   background-size: 100%;
   background-image: url("external-link-52.png");
-}
-
-a:focus {
-  outline: none;
-}
-
-a:hover {
-  text-decoration: none;
 }
 
 aside ul li {
