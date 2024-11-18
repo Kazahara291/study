@@ -49,20 +49,22 @@ html{
 }
 
 @font-face {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "myfont","myFont2";
+  src:
+  url(myfont.woff) , url(myFont2.otf);
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   text-align: center;
 }
 
 h2 {
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 
 h1 , h2 {
-  font-family: sans-serif;
+  font-family: "myFont";
   letter-spacing: 0.5rem;
 }
 
@@ -73,6 +75,7 @@ h2+p {
 p {
   font-family: Arial;
   font-size: 1.2rem;
+  font-family: "myFont2";
   line-height: 1.5rem;
   letter-spacing: 0.3rem;
   word-spacing: 0.3rem;
