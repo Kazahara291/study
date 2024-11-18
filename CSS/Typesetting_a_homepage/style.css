@@ -125,7 +125,6 @@ aside ul li {
   list-style: circle;
 }
 
-
 nav {
   margin: 0;
   gap: 0.625%;
@@ -139,6 +138,7 @@ nav ul li {
   list-style: none;
   border: #000 solid  1px;
   width: 20rem;
+  margin-top: 0;
   margin: 3rem;
   margin-left: 0;
   background-color: #fff;
