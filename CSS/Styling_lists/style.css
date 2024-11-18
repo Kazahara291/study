@@ -48,6 +48,10 @@ html{
   font-size: 10px;
 }
 
+@font-face {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 h1 {
   font-size: 2.5rem;
   text-align: center;
@@ -58,6 +62,7 @@ h2 {
 }
 
 h1 , h2 {
+  font-family: sans-serif;
   letter-spacing: 0.5rem;
 }
 
@@ -66,22 +71,57 @@ h2+p {
 }
 
 p {
+  font-family: Arial;
   font-size: 1.2rem;
   line-height: 1.5rem;
   letter-spacing: 0.3rem;
   word-spacing: 0.3rem;
+  list-style: square;
+}
+
+section ul li ,section ol li {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  list-style: square;
+}
+
+a[href^="http"]:visited{
+  color: #0f0;
+}
+
+a[href^="http"]::after {
+  content: "";
+  display: inline-block;
+  width: 0.8rem;
+  height: 0.8rem;
+  margin-left: 0.25rem;
+  background-size: 100%;
+  background-image: url("external-link-52.png");
+}
+
+a:focus {
+  outline: none;
 }
 
 a:hover {
   text-decoration: none;
 }
 
-a[href^="http"]::after {
-  content: "";
-  display: inline-block;
-  width: 0.8em;
-  height: 0.8em;
-  margin-left: 0.25em;
-  background-size: 100%;
-  background-image: url("external-link-52.png");
+aside ul li {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  list-style: square;
+}
+
+nav ul li {
+  font-size: 4rem;
+  text-align: center;
+  list-style: none;
+  border: #000 solid 1px;
+  margin: 10px;
+  width: 250px;
+}
+
+nav ul li a {
+  text-decoration: none;
 }
