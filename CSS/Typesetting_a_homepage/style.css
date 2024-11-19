@@ -54,7 +54,7 @@ header, footer {
   src: url("./myFont2.ttf");
 }
 
-html{
+html {
   font-size: 10px;
   font-family: "myFont2";
 }
@@ -151,7 +151,7 @@ nav ul li a {
 }
 
 nav ul li:focus {
-  background-color: #f90;
+  background-color: #000;
 }
 
 nav ul li:hover {
