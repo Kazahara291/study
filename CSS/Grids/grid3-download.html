@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
 
-    <title>Grid: task 2</title>
+    <title>Grid: task 3</title>
 
     <link rel="stylesheet" href="../styles.css" />
 
@@ -23,6 +23,8 @@
       }
 
       .grid > * {
+        background-color: #4d7298;
+        border: 2px solid #77a6b6;
         border-radius: 0.5em;
         color: #fff;
         padding: 0.5em;
@@ -30,31 +32,39 @@
 
       .grid {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 100px 100px 100px;
+        grid-template-columns: 1fr 2fr;
         gap: 10px;
+        grid-template-areas: 
+        "one one one"
+        "two three three"
+        ". four four";
       }
 
-      .item1 {
-        background-color: rgb(74 102 112 / 70%);
-        border: 5px solid rgb(74 102 112 / 100%);
-        grid-column: 1 / span 3;
-        grid-row: 1 / span 2;
+      .one {
+        grid-area: one;
       }
 
-      .item2 {
-        background-color: rgb(214 162 173 / 70%);
-        border: 5px solid rgb(214 162 173 / 100%);
-        grid-column: 2 / span 3;
-        grid-row: 2 / span 2;
+      .two {
+        grid-area: two;
       }
-    </style>
+
+      .three {
+        grid-area: three;
+      }
+
+      .four {
+        grid-area: four;
+      }
+
+</style>
   </head>
 
   <body>
     <div class="grid">
-      <div class="item1">One</div>
-      <div class="item2">Two</div>
+      <div class="one">One</div>
+      <div class="two">Two</div>
+      <div class="three">Three</div>
+      <div class="four">Four</div>
     </div>
   </body>
 </html>
