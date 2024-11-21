@@ -35,6 +35,10 @@
         margin: 0;
         padding: 0;
         list-style: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
       }
 
       .tags > * {
@@ -45,11 +49,13 @@
         font-size: 80%;
         margin: 5px;
       }
+
       .container {
-        display: flex;
+        display: grid;
+        grid-template-columns: repeat(3,215px);
         gap: 10px;
-        flex-flow: wrap;
       }
+
     </style>
   </head>
 
