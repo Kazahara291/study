@@ -8,6 +8,7 @@ body {
   img {
       max-width: 100%;
       display: block;
+      float: left;
   }
   
   .logo {
@@ -32,6 +33,8 @@ body {
     margin: 0;
     padding: 0;
     list-style: none;
+    display: flex;
+    justify-content: space-between;
   }
   
   nav a {
@@ -47,5 +50,9 @@ body {
   }
 
   .feature {
-      width: 200px;
+    width: 200px;
+  }
+
+  article p {
+    margin-left: auto;
   }
