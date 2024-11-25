@@ -1,0 +1,40 @@
+html {
+    font-size: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+
+h1 img {
+    height: 40px;
+    width: 120px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav ul li a {
+    color: #24292E;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: ;
+}
+
+main div img {
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+}
+
+main section #bicycle {
+    display: flex;
+}
